@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Harsh Vardhan — Student Portfolio</title>
+  <!-- Google Font: Poppins -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <!-- External stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Sticky navigation bar -->
+  <header class="nav-sticky">
+    <div class="nav-inner wrap">
+      <div class="logo">Harsh Vardhan</div>
+      <nav aria-label="Primary">
+        <a class="nav-link" href="#hero">Home</a>
+        <a class="nav-link" href="#about">About</a>
+        <a class="nav-link" href="#education">Education</a>
+        <a class="nav-link" href="#skills">Skills</a>
+        <a class="nav-link" href="#projects">Projects</a>
+        <a class="nav-link" href="#contact">Contact</a>
+      </nav>
+      <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+    </div>
+  </header>
+
+  <!-- HERO: full-screen gradient background -->
+  <section id="hero" class="hero">
+    <div class="hero-inner wrap">
+      <div class="hero-content">
+        <h1 class="animate-title">Harsh Vardhan</h1>
+        <p class="tagline">B.Tech (IBM) • 1st Semester — Aspiring Web Developer</p>
+        <p class="hero-desc">I build small web projects while learning front-end technologies and programming fundamentals.</p>
+        <div class="hero-ctas">
+          <button class="btn btn-glow" id="downloadResume">Download Resume</button>
+          <a class="btn btn-outline" href="#contact">Contact Me</a>
+        </div>
+      </div>
+      <div class="hero-visual" aria-hidden="true">
+        <!-- <div class="glass-card">HV</div> -->
+        <div class="glass-card"><img src="image.jpeg" alt="Image not loaded"></div>
+      </div>
+    </div>
+  </section>
+
+  <main>
+    <!-- About Me -->
+    <section id="about" class="card glass">
+      <div class="wrap">
+        <h2>About Me</h2>
+        <p>I am Harsh Vardhan from Patna, Bihar. Currently pursuing B.Tech (IBM) at Rungta International Skills University, Bhilai. I enjoy learning web development and improving my programming skills.</p>
+        <div class="about-grid">
+          <div>
+            <h3>Education</h3>
+            <p>B.Tech (IBM) — 1st Semester</p>
+            <p>Rungta International Skills University, Bhilai</p>
+          </div>
+          <div>
+            <h3>Career Goal</h3>
+            <p>To become a front-end developer building accessible and user-friendly web apps while continuously learning.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education timeline -->
+    <section id="education" class="wrap">
+      <h2>Education</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="dot"></div>
+          <div class="content">
+            <h4>B.Tech (IBM)</h4>
+            <p>Rungta International Skills University — Bhilai, Chhattisgarh<br><small>1st Semester</small></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="card glass">
+      <div class="wrap">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+          <div class="skill">
+            <h4>HTML</h4>
+            <div class="progress" data-percent="90"><div class="fill"></div></div>
+            <p class="muted">Semantic markup, accessibility basics</p>
+          </div>
+          <div class="skill">
+            <h4>CSS</h4>
+            <div class="progress" data-percent="80"><div class="fill"></div></div>
+            <p class="muted">Layouts, Flexbox, Grid</p>
+          </div>
+          <div class="skill">
+            <h4>JavaScript</h4>
+            <div class="progress" data-percent="65"><div class="fill"></div></div>
+            <p class="muted">DOM, events, simple interactivity</p>
+          </div>
+          <div class="skill">
+            <h4>C Language</h4>
+            <div class="progress" data-percent="60"><div class="fill"></div></div>
+            <p class="muted">Fundamentals: pointers, arrays</p>
+          </div>
+        </div>
+        <div class="soft-skills">
+          <span class="skill-pill">Problem solving</span>
+          <span class="skill-pill">Teamwork</span>
+          <span class="skill-pill">Learning mindset</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="wrap">
+      <h2>Projects</h2>
+      <div class="projects-grid">
+        <article class="proj-card">
+          <div class="proj-inner">
+            <h4>Portfolio Website</h4>
+            <p>Single-page portfolio showcasing skills and projects.</p>
+            <div class="tech">HTML • CSS • JavaScript</div>
+          </div>
+        </article>
+
+        <article class="proj-card">
+          <div class="proj-inner">
+            <h4>Simple Calculator</h4>
+            <p>Handles basic arithmetic operations with a clean UI.</p>
+            <div class="tech">HTML • CSS • JavaScript</div>
+          </div>
+        </article>
+
+        <article class="proj-card">
+          <div class="proj-inner">
+            <h4>Even/Odd Checker</h4>
+            <p>Checks if a number is even or odd.</p>
+            <div class="tech">JavaScript</div>
+          </div>
+        </article>
+
+        <article class="proj-card">
+          <div class="proj-inner">
+            <h4>Basic C Programs</h4>
+            <p>Collection of simple C programs for practice.</p>
+            <div class="tech">C Language</div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    
+    <!-- Career Objective -->
+    <section id="career" class="wrap career-objective">
+      <h2>Career Objective</h2>
+      <p>To build practical web applications and grow as a front-end developer while learning new technologies and best practices.</p>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="card glass">
+      <div class="wrap">
+        <h2>Contact</h2>
+        <div class="contact-grid">
+          <!-- Left: contact details with simple inline SVG icons -->
+          <div class="contact-info">
+            <p><strong>Email:</strong> <a href="mailto:bardhanharsh68@gmail.com">bardhanharsh68@gmail.com</a></p>
+            <p><strong>Phone:</strong> <a href="tel:+7004763548">+91-7004763548</a></p>
+            <p><strong>GitHub:</strong> <a href="https://github.com/bardhanharsh68">bardhanharsh68</a></p>
+            <!-- <p><strong>LinkedIn:</strong> <a href="#">linkedin.com/in/your-profile</a></p> -->
+            <div style="margin-top:12px;color:var(--muted);font-size:0.95rem">Prefer email for project inquiries — I reply within a few business days.</div>
+          </div>
+
+          <!-- Right: contact form with inline feedback and success message -->
+          <div>
+            <form id="contactForm" class="contact-form" novalidate>
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" placeholder="Your full name" required>
+              <small class="field-error" id="err-name" style="display:none;color:#b00020"></small>
+
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="you@example.com" required>
+              <small class="field-error" id="err-email" style="display:none;color:#b00020"></small>
+
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" placeholder="Write your message" required></textarea>
+              <small class="field-error" id="err-message" style="display:none;color:#b00020"></small>
+
+              <div class="form-actions">
+                <button class="btn btn-glow ripple" type="submit">Send Message</button>
+                <button class="btn btn-outline" type="button" id="clearForm">Clear</button>
+              </div>
+
+              <!-- Inline success message area -->
+              <div id="contactSuccess" role="status" style="display:none;margin-top:12px;padding:10px;border-radius:8px;background:#e6fffb;color:#044b40;border:1px solid rgba(4,75,64,0.12)"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>&copy; <span id="year">2026</span> Harsh Vardhan — Built with HTML, CSS & JavaScript</p>
+    </div>
+  </footer>
+
+  <!-- Scroll to top -->
+  <button id="scrollTop" class="scroll-top" aria-label="Scroll to top">↑</button>
+
+  <!-- External JavaScript -->
+  <script src="script.js" defer></script>
+</body>
+</html>
